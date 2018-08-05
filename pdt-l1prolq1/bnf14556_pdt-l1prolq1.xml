@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Librum I, Prologus, Questio 1 [Paris, BnF ms. 14556 Transcription]</title>
+        <author>Petrus de Tarantasia</author>
+        <editor>Jeffrey C. Witt</editor>
+      </titleStmt>
+      <editionStmt>
+        <edition n="2015.08-dev-master">
+          <title>Librum I, Prologus, Questio 1 [Paris, BnF ms. 14556 Transcription]</title>
+          <date when="2015-08-16">August 16, 2015</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2015-08-16">August 16, 2015</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="bnf14556">Paris, BnF ms. 14556</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface n="P1v">
+      <graphic url="P1v.jpg"/>
+      <zone start="#pdtl1prolq1-d1e3480" ulx="804" uly="3505" lrx="2201" lry="3819" n="1"/>
+    </surface>
+  </facsimile>
+  <text>
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"></xi:include>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"></xi:include>
+      </div>
+    </front>
+    <body>
+      <div xml:id="pdt-l1prolq1">
+        <head>Librum I, Prologus, Questio 1 [Paris, BnF 14556 Transcription]</head>
+        <div>
+          <head>Divisio quaestionis</head>
+        
+          <p xml:id="pdtl1prolq1-d1e3453"><lb ed="#P"/>Ad evidentiam doctrinae sequentis quaeruntur hic sex</p>
+          
+          <p xml:id="pdtl1prolq1-d1e3457"><lb ed="#P"/>Primo de genere huius doctrinae an sit scientia <pc ana="#punctuselevatus"/></p>
+          
+          <p xml:id="pdtl1prolq1-d1e3461"><lb ed="#P"/>Tertio de subiecto de quo sit <pc ana="#punctuselevatus"/></p>
+          
+          <p xml:id="pdtl1prolq1-d1e3465"><lb ed="#P"/>Quarto de fine an sit speculativa vel practica <pc ana="#punctuselevatus"/></p>
+          
+          <p xml:id="pdtl1prolq1-d1e3470"><lb ed="#P"/>Quinto de necessitate utrum post alias scientias 
+            sit necessaria <pc ana="#punctuselevatus"/></p>
+          
+          <p xml:id="pdtl1prolq1-d1e3476"><lb ed="#P"/>Sexto de modo an conveniat modus inquisitivus per rationes et argumenta <pc ana="#punctuselevatus"/></p>
+        
+        </div>
+        <div xml:id="pdtl1prolq1a1" type="articulus">
+          
+          <p xml:id="pdtl1prolq1-d1e3480"><lb ed="#P"/>Ad primum sic proceditur <pc ana="punctus"/> omnis scientia est de solis intelligibilibus theologia non est de solis intelligibilibus 
+            <lb ed="#P"/>ergo non est scientia <pc ana="#punctus"/> probatio mediae <pc ana="#punctus"/> dicit <ref><name ref="#Augustine">augustinus</name> libro <title ref="#deDiversisQuaestionibus"><sic>lxxxiiii</sic> quaestionibus</title></ref> quaedam creduntur 
+            <lb ed="#P"/>et numquam intelliguntur ut est omnis hystoria singularia et humana gesta percurrens 
+            <lb ed="#P"/>de multis vero talibus est theologia ergo etc <pc ana="#punctus"/></p>
+          
+          <p xml:id="pdtl1prolq1-d1e3507">2. Nulla scientiae est de singularibus, quia, sicut 
+            ait <ref><name ref="#Aristotle">philosophus</name> primo <title ref="#Metaphysics">metaphyiscae</title></ref>, <quote>singularium 
+            est experientia, ars vero et scientia universalium</quote> et Theologia vero pro maiori parte est de singularibus. 
+            Ergo etc.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3526">3. Omnis scientia procedit ex aliquibus principiis 
+            per se notis: Theologia vero procedit ex 
+            credibilibus non per se notis.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3533">Contra. 1. <name ref="#Augustine">Augustinus</name> 13 <title ref="#deTrinitate">de Trinitate</title>. Theologia 
+            est scientia, de his quae ad salutem animae 
+            pertinet.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3547">2. Certior est cognitio tradita per divinam inspirationem, 
+            quam per humanam ratione, quia 
+            inspiration non potest errare, sicut rationcinatio. 
+            Ergo certior est cognitio Theologiae, quam Philosophiae: 
+            Ergo potius debet dici scientia.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3558">Respondeo. Sicut dicit <name ref="#Augustine">Augustinus</name> I <title>de libero 
+            arbitrio</title> <quote>scire aliquid est ratione percipere,</quote> aut 
+              <cb ed="#T" n="A2rb"/> <!-- also page 3b -->ergo secundum viam rationis inferioris, quae consulit 
+            leges inferiores causarum, et effectuum naturalium 
+            ab illis lumen cognitionis, scilicet principia sua 
+            suscipiendo; aut secundum viam rationis superioris, 
+            quae consulit leges aeternas dispositionum 
+            divinarum ab illis lumen irradiationis accipiendo: 
+            inferiora quidem perfecte a ratione capiuntur, 
+            superiora vero non, quia excellunt, sicut lux candelae 
+            perfecte ab oculo capitur, sed lux solis non; 
+            unde oportet, quod multo major credatur, quam 
+            videri possit et habitus vero cognitionis secundum 
+            viam inferiorem proprie dicitur scientia: habitus 
+            perficiens secundum viam superiorem proprie 
+            sapientia: Nam, ut ait <name ref="#Augustine">augustinus</name> 14 <title ref="#deTrinitate">de Trinitate</title> 
+            <quote>scientia est proprie cognitio rerum humanarum, 
+              sapientia divinarum;</quote> large tamen utraque dicitur 
+            et sapientia, et scientia. Dico ergo, quod Theologia 
+            large potest dici scientia, sed stricte et proprie 
+            sapientia.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3625"><ref type="commentary" target="http://scta.info/resource/pdtl1prolq1-d1e3480">Ad 1. Omnis scientia est de solis intelligibilibus.</ref> 
+          Responsio. Verum est primo, et per se tanquam 
+            de obiecto; sed ex consequenti, et a posteriori, est 
+            de sensibilibus, per quae quasi exemplificando manifestat 
+            passiones subjecti, non per argumenta 
+            probando: sicut Mathematica rationem figurarum 
+            intelligibilium exemplificat per descriptionem 
+            figurarum visibilium; hoc autem contingit propter 
+            necessitatem discentis, non scientiae: Sic ergo 
+            Theologia primo et per se est de intelligibilibus 
+            solis, scilicet divinis; sed per <sic>posteius</sic> de sensibilibus, 
+            scilicet exempli gratia ad manifestanda divina. 
+            Vel propositio prima intelligitur de scientia 
+            humana, quae innititur lumini imperfecto, et determinato; 
+            Divina vero lumini divino infuso, 
+            quod habet efficaciam ad omnia et singula in propriis 
+            etiam rationibus manifestanda.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3665"><ref type="commentary" target="http://scta.info/resource/pdtl1prolq1-d1e3507">Ad 2. Nulla scientiae est de singularibus.</ref> Responsio. 
+            Theologia non est de singularibus ut sunt singularia 
+            in se, sed ut universalia virtute per comparationem ad alia similia. Non enim est de singularibus 
+            secundum intellectum literalem solum, 
+            sed magis secundum spiritualem, ut de <name ref="#Abraham">Abraham</name>, 
+            in quo est universale exemplar credendi: universale 
+            quippe aliquid dicitur quaturo modis: aut in 
+            praedicando, ut species de individuis; aut in exemplando, 
+            ut forma de sotularibus faciendis: aut in 
+            significando, ut <name ref="#Jacob">Iacob</name> habens duas uxores ad omnes 
+            viros perfectos in utraque vita significandos; 
+            aut in causando, ut Deus, qui est causa universalis 
+            creationis omnium; et Christus causa universalis 
+            Redemptionis omnium hominum. Omne 
+            igitur, de quo hic agitur, est universale aliquo 
+            horum quatuor modorum.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3705"><ref type="commentary" target="http://scta.info/resource/pdtl1prolq1-d1e3526">3. Omnis scientia procedit etc.</ref> Responsio. 
+            Principia per se nota, seu communes animi conceptiones 
+            duplicia sunt, quaedam enim sunt communia, 
+            quae omnes suscipiunt, ut Omne totum 
+            majus est sua parte; quaedam propria alicuius 
+            scientiae, quae non omnes, sed docti probant, ut, 
+            In omni, quod est citra primum, differunt esse, et 
+            quod est. Non omnis scientia procedit ex communibus 
+            principiis, quae per se nota sunt omnibus, 
+            <choice><orig>imo</orig><reg>immo</reg></choice> ex <choice><orig>proprijs</orig><reg>propriis</reg></choice>, quae solum sapientibus: 
+            sic Theologia procedit ex articulis, qui per 
+            se noti sunt non omnibus, sed fidelibus, quia in 
+            genere credibilium omnia alia per ipsos probatur 
+            ipsis vero non: quamvis manifestentur rationibus 
+            quibusdam, et defendantur.</p>
+        </div>
+        <div xml:id="pdtl1prolq1a2" type="articulus">
+          <head>Secundus articulus: <seg type="questionTitle">Utrum theologia sit una scientia?</seg></head>
+          
+          <p xml:id="pdtl1prolq1-d1e3754"><cb ed="#T" n="A2va"/>Ad Secundum sic proceditur. 1. Secundum 
+            <name ref="#Aristotle">Philosophum</name> in libro <title ref="#PosteriorAnalytics">Posteriorum</title> 
+            una est scientia, quae est unus generis determinati, 
+            vel subjecti; sed Theologia non est unius generis 
+            subiecti, quia de rebus fruibilibus, et utilibus 
+            agit. Ergo etc.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3776">2. In scientijs humanis non est una scientia 
+            de naturalibus, et moralibus. Ergo nec in divinis.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3782">3. De rebus, et signis non est una scientia: 
+            Theologia determinat simul de utrisque: Ergo 
+            non est scientia una.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3790">Contra. 1. <ref><name ref="#Augustine">Augustinus</name> <title>de libero arbitrio</title>:</ref> si summum 
+            bonum est unum, oportet eam veritatem, in 
+            qua cernitur, unam esse; sed in nullius scientiae veritate 
+            cernitur ratio summi boni, nisi in Theologia; Ergo etc.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3807">2. Quod per superabundantiam dicitur, uni 
+            soli convenit. Ergo scientia altissima. et nobilissima 
+            non potest esse, nisi una. Ergo etc.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3815">3. De rebus diversorum generum contingit 
+            esse scientiam unam sub ratione una, sicut <title ref="#Metaphysics">Metaphysica</title> 
+            de omnibus entibus sub ratione entis: 
+            De omnibus vero agit Theologia sub ratione 
+            una, scilicet sub ratione divina. Ergo etc.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3831">Respondeo. Unum genus dicitur dupliciter. 
+            vel unitate univocationis, quomodo unum aliquid 
+            praedicatur aequaliter de pluribus, ut animal 
+            de suis speciebus, vel analogice, quando non 
+            aequaliter, sed per reductionem ad aliquid unum: 
+            hoc autem dupliciter, vel sicut ad subjectum, ut 
+            sanum de urina, et medicina per comparationem 
+            ad sanitatem animalis, scilicet ad subjectum susceptibile 
+            sanitatis; vel sicut ad causam, et hoc 
+            dupliciter, vel ita quod illud dicitur de causa, et 
+            causatis per participationem, sed inaequalem, quia 
+            de causa per prius, ut esse de substantia, et de accidente; 
+            vel ita, quod de causa per essentiam, de 
+            causatis vero per participationem, ut ens de ente 
+            creato et increato. Quoties vero unum genus dicitur, 
+            potest dari una scientia. Cum ergo hic agatur 
+            de rebus divinis, Divinitas vero in Deo sit per 
+            essentiam, in aliis per participationem, haec est 
+            una scientia ultimo modo unitatis, qui dictus 
+            est. Nam primo modo scientia naturalis de corpore 
+            mobile potest ici una; secundo modo scientia 
+            Medicinae, quae est scientia sai et aegri; tertio 
+            modo Metaphysica, quae est de ente divino.</p>
+        
+        <p xml:id="pdtl1prolq1-d1e3881">Et sic patet ad 1. de rebus fruibilibus, et utilibus.</p>
+        
+        <p xml:id="pdtl1prolq1-d1e3884">Ad 2. de rebus naturalibus et moralibus, et ad 
+          3. de rebus et signis. Responsio. Scientia humana agit 
+          de illis sub rationibus propriis, quae sunt diversae, 
+          et ideo non est una; sed Theologia sub una ratione 
+          divina, inquantum scilicet ad Deum ordinantur, 
+          de quo principaliter intenditur, et ideo est una.</p>
+        </div>
+        <div xml:id="pdtl1prolq1a3" type="articulus">
+          <head>Tertius articulus: <seg type="questionTitle">Utrum Deus sit subiectum Theologiae</seg></head>
+          <p xml:id="pdtl1prolq1-d1e3901">Ad tertium Articulum proceditur sic. 1. 
+            Theologia denominatur a Theos, quod est 
+            Deus, et a logos, quod est Sermo: aut ergo quia a 
+            Deo, aut quia de Deo: Si primo modo ergo omnis 
+            scientia potest dici Theologia: quod falsum 
+            est; si quia de Deo, ergo Deus est subjectum eius.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e3916">2. Secundum <ref><name ref="#Aristotle">Philosophum</name> in principio libro 
+            <title ref="#deAnima">de anima</title></ref>. Honorabilior est scientia, quae est de 
+            honorabiliori subjecto. Ergo honorabilissima, 
+            quae est de honorabilissimo etc.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e3932">Contra 1. <ref><name>Boetius</name> libro <title ref="#deTrinitateBoethius">de Trinitate</title>.</ref> Forma simplex 
+            nulli <choice><orig>subjectum</orig><reg>subiectum</reg></choice> esse potest.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e3951">2. Quamvis secundum <ref><name ref="#Aristotle">Philosophum</name> libro 2 
+            <title ref="#Physics">Physicarum</title></ref> efficiens, forma, et finis in eandem substantiam 
+            causae coincidant: idem enim secundum 
+            substantiam est finis naturae generantis, forma generati, principium etiam efficiens generandi simile 
+            sibi; non tamen simul coincidunt in unum 
+            materiae et finis, quae materiae quid est imperfectissimum, 
+            finis vero quod optimum: Deus vero 
+            est finis Theologiae, secundum illud <title ref="#rom">ad Romanos</title> 10. 
+            <quote ana="#ro10_4">Finis Legis Christus:</quote> Non ergo materiae.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e3984">3. <ref><name ref="#HughOfStVictor">Hugo de S. Victore</name> libro <title ref="#deSacramentis">de Sacramentis</title></ref> 
+            dicit, quod aliarum scientiarum materia sunt opera 
+            conditionis, Theologiae vero opera restaurationis: non ergo Deus.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e3998">4. Super <ref>primum <title ref="#ps">Psalmum</title></ref> dicit <ref>quaedam 
+            Glossa,</ref> quod materia Sacrae Scripturae est totus 
+            Christus caput cum membris.</p>
+            
+          <p xml:id="pdtl1prolq1-d1e4013">5. <name ref="#Augustine">Augustinus</name> et <name ref="#Lombard">Magister</name> dicunt, quod est de 
+            rebus, et signis, et de rebus utilibus, et fruibilibus. 
+            Ergo de omnibus.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4027">Respondeo. Secundum quosdam de <choice><orig>subjecto</orig><reg>subiecto</reg></choice> 
+            Theologiae est loqui tripliciter secundum tria, quae 
+            sunt in unoquoque ente completo substantia, virtus, 
+            operatio; primo modo <choice><orig>subjectum</orig><reg>subiectum</reg></choice> Tehologiae est 
+            Deus: secundo modo Christus, qui est virtus 
+            Patris; tertio modo opera restaurationis per Christum 
+            facta. Unde <choice><orig>Subjectum</orig><reg>Subiectum</reg></choice> totus Theologiae 
+            est substantia divina per Christum in operibus 
+            reparationis manifestata. De operibus vero creationis 
+            agitur ibi per accidens, ut manifestius pateant 
+            opera restaurationis. Sed contra: Omnia entia 
+            sunt opera Dei et Christi. Ergo eadem ratione 
+            omne ens esset <choice><orig>subjectum</orig><reg>subiectum</reg></choice> Theologiae. Secundum 
+            alios vero <choice><orig>subjectum</orig><reg>subiectum</reg></choice> scientiae dicitur aliquid tripliciter; 
+            scilicet illud, ad quod omnia alia reducuntur, 
+            vel sicut ad principium radicale, vel sicut 
+            ad totum integrale, vel sicut ad genus universale; 
+            Primo modo Geometriae <choice><orig>subjectum</orig><reg>subiectum</reg></choice> potest esse 
+            punctus, a quo fluit tota natura quantitatis continuae; 
+            Secundo modo Corpus quantitas, in quo 
+            omne genus dimensionis includitur; Tertio modo 
+            quantitas continua immobilis, quae de quaibet 
+            figuram specie praedicatur. Primo modo 
+            Deus est <choice><orig>subjectum</orig><reg>subiectum</reg></choice> Theologiae; Secundo modo 
+            Christus. Tertio ens divinum. Sed non videtur 
+            consuetum, ut principium dicatur <choice><orig>subjectum</orig><reg>subiectum</reg></choice>, nam 
+            per principia de subjectis conclusiones probatur. 
+            Secundum alios ergo subjectum vel materia dicitur 
+            dupliciter, stricte et proprie, sive subjectum 
+            intentionis, de quo principaliter agitur, et ad 
+            quod alia omnia reducuntur, et sub eius ratione 
+            aliquo modo continentur, per quod scientia distinguitur, 
+            et ideo etiam intitulatur; vel large et 
+            communiter, sive <choice><orig>subjectum</orig><reg>subiectum</reg></choice> executionis, scilicet 
+            omne id, de quo in scientia tractatur: verbi gratia artis 
+            domificatoriae <choice><orig>subjectum</orig><reg>subiectum</reg></choice> vero executionis, materiae, circa 
+            quam <choice><orig>negociatur</orig><reg>negotiatur</reg></choice>, scilicet ligna, et lapides. Primo 
+            modo Deus est <choice><orig>subjectum</orig><reg>subiectum</reg></choice> Theologiae: se<cb ed="#T" n="A3ra"/>cundo 
+            modo omnes res divinae, inquantum esse 
+            divinum participant.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4189">Ad 1. in contrarium. Forma simplex etc. Respondeo <!-- compare with previous "responsio" --> 
+            Id intelligitur de <choice><orig>subjecto</orig><reg>subiecto</reg></choice> naturae, non doctrinae, 
+            quia per hoc nihil ponitur in subjecto ipso, sed 
+            in docente, sicut per laudationem <name ref="#JuliusCaesar">Caesaris</name>, nihil 
+            ponitur in ipso <name ref="#JuliusCaesar">Caesare</name>, sed in laudante.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4215">Ad 2. De fine, et materiae. Respondeo. Duplex est 
+            materiae, scilicet ex qua, quae est pars rei, et est <choice><orig>subjectum</orig><reg>subiectum</reg></choice> 
+            operationis naturae; haec non coincidit 
+            cum fine; et circa quam, scilicet <choice><orig>objectum</orig><reg>obiectum</reg></choice>, quod 
+            est <choice><orig>subjectum</orig><reg>subiectum</reg></choice> operationum animae; haec coincidere 
+            potest: unde virtus altissima, scilicet Charitas 
+            idem habet pro obiecto, et fine: et similiter 
+            Theologia, quae est altissima scientia.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4249">Ad 3. Quod opponitur de operibus restaurationis. 
+          Respondeo. De solo Deo est Theologia, ut de 
+            <choice><orig>subjecto</orig><reg>subiecto</reg></choice> intentionis, cuius proprietates notificare 
+            intendit: De <choice><orig>alijs</orig><reg>aliis</reg></choice> vero, ut de <choice><orig>subjecto</orig><reg>subiecto</reg></choice> executionis 
+            tanquam per quae notificatur: quaedam tamen 
+            ad id notificandum in ratione summi boni beatificantis 
+            (Sic enim est finis rationialis creaturae) ordinantur 
+            propinquius, ut opera restaurationis; quaedam 
+            remotius, ut opera caetera. Et ideo dicit Glossa, 
+            quod materiae Sacrae Scripturae est Christus, sive 
+            opera restaurationis. Ad caetera patet ex dictis.</p>
+        </div>
+        <div xml:id="pdtl1prolq1a4" type="articulus">
+          <head>Quartus articulus: <seg type="questionTitle">Utrum Theologia sit speculativa, vel practica?</seg></head>
+          
+          <p xml:id="pdtl1prolq1-d1e4296">Ad quartum sic proceditur 1. <ref><name ref="#Boethius">Boetius</name> libro <title ref="#deTrinitateBoethius">de 
+            Trinitate</title></ref> dicit, quod speculativae tres sunt 
+            partes, scilicet Theologia sine motu abstracta, 
+            Mathematica sine motu in abstracta, et naturalis 
+            cum motu inabstracta. Ergo Theologia est scientia 
+            speculativa.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4316">2. Secundum <ref><name ref="#Aristotle">Philosophum</name> 1 <title ref="#Metaphysics">Metaphysica</title></ref> Nobilissima 
+            scientia est sui gratia; practicae vero non 
+            sic sunt sui gratia, sed propter opus. Ergo etc.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4330">3. <ref><title ref="#Ethics">Ethica</title> 6</ref> dividit habitus speculativos 
+            in intellectum, qui est habitus principiorum, 
+            et scientiam, quae est habitus conclusionum, 
+            et sapientiam, quae est habitus utorumque 
+            simul, non tamen quorumlibet, sed altissimorum 
+            principiorum, et conclusionum: Theologia 
+            vero Sapientia est. Ergo, etc.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4351"><g ref="#pilcrow"/>Contra 1. Opus practicae est, secundum <ref><title ref="#Aristotle">Philosophum</title> 
+            libro 6 <title ref="#Ethics">Ethica</title></ref> non sui gratia, sed ut boni 
+            fiamus; tale vero est opus Theologiae. Ergo, etc.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4366">2. Scientia legum practica est: Theologia vero 
+            scientia legum est, scilicet veteris et novae. Ergo etc.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4371">1. Videtur, quod simul sit utrumque, 1. Quia speculativae 
+            secundum <ref><name ref="#Aristotle">Philosophum</name> 1 <title ref="#Metaphysics">Metaphysica</title></ref> finis est 
+            veritas; practicae vero opus: Theologiae vero 
+            finis est utrumque, quia agit de fide, et moribus.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4388">2. Docet modum vivendi contemplativum 
+            et activum: Ergo est contemplativa et activa.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4393">Respondeo. Scientia est perfectio intellectus 
+            humani: humanus vero intellectus considerari 
+            potest tripliciter; vel in se, secundum quod respicit 
+            cognitionem; vel in extensione ad affectum, 
+            secundum quod excitat affectionem; vel in extensione 
+            ad opus exterius, secundum quod regulat 
+            operationem: secundum hoc perficitur triplici 
+            habitu: primo modo habitu cognitionis pure speculativae; 
+            ultimo modo habitu cognitionis pure 
+            <cb ed="#T" n="A3rb"/>practicae, medio modo habitu cognitionis mediae 
+            partim speculativae, partim practicae, quia medium 
+            sapit naturam utriusque extremi: <choice><orig>hujus</orig><reg>huius</reg></choice> enim cognitio 
+            complementum et terminus est speculationis: 
+            principium vero primum, sed non proximum 
+            actionis: unde per reductionem continet utrumque 
+            genus, sed principaliter genus practicae. Primus 
+            habitus proprie appellatur scientia; ultimus 
+            proprie ars: medius proprie sapientia. Talis habitus 
+            est Theologia, quae est de ultimo fine omnium 
+            scientiarum, quo solo tota perficitur intellectiva 
+            anima, in quo continentur aliarum fines. 
+            In ipso enim est, ut <name ref="#Plato">Plato</name> dicit, et recitat <ref><name>Augustinus</name> 
+            libro <title ref="#deTrinitate">de Trinitate</title></ref> ratio intelligendi, et causa 
+            subsistendi, et ordo inveniendi. Unde sicut dicit 
+            <ref><name ref="#Jerome">Hieronymus</name> <title>ad Marcellam</title></ref>, quo modo Philosophi 
+            solent disputationes in Physciam et Ethicam, 
+            Logicamque partiri: ita eloquia divina aliuando 
+            de natura agunt, ut in <title ref="#gen">Genesi</title>; aliquando de 
+            moribus, ut in <title ref="#prov">Proverbijs</title>; aliquanod de Logica, 
+            pro qua nostri Theologi <sic>Theologicen</sic> sibi vendicant, 
+            ut in <choice><orig>Evangelijs</orig><reg>Evangeliis</reg></choice>: in Deo enim est prima 
+            potestas, quae est principium, et finis omnis motus, 
+            et operationis; et prima veritas, quae est 
+            principium et finis omnis speculationis; et bonitas 
+            prima, quae est finis, et principium omnis 
+            actionis moralis.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4511">Ad 1. Ex <name ref="#Boethius">Boetio</name> Rspondeo Duplex est Theologia 
+            secundum <ref><name ref="#HughOfStVictor">Hugonem</name> libro de origine artium,</ref> 
+            una mundana, scilicet Metaphysica, quae Dei cognitionem 
+            investigat per rationes mundanas; altera 
+            Ecclesiastica, quae per divinas; prima est pure 
+            speculativa, non practica; secunda utrumque.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4534">Ad 2. Practicae non sunt sui gratia etc. Respondeo 
+            Verum est de pure practicis.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4539">Ad 3. De Sapientia Respondeo <name ref="#Aristotle">Philosophus</name> accipit 
+            sapientiam dictam a sapere, sed Theologus a 
+            sapore.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4549">Ad 1. In contrarium. Opus practicae etc. Respondeo 
+            Loquitur de pure practica.</p>
+        
+          <p xml:id="pdtl1prolq1-d1e4555">Ad 2. De scientia legis. Respondeo Non est simile 
+            de lege humana particulari, quae respicit ordinem 
+            determinatum hominis ad hominem, qui est per 
+            opera exteriora; et de lege divina universali, quae 
+            respicit ordinem universalem hominis in se, et 
+            ad Deum, et ad proximum, quae est secundum 
+            omnes vires humanas, et actus earum sive exteriores, 
+            sive interiores. Nec obstat praedictis si dicatur, 
+            quod finis Theologiae est contemplatio Dei 
+            per speciem in futuro, et a fine debet fieri denominatio; 
+            quia hoc intelligitur de fine proximo, 
+            et proprio, non remoto et communi.</p>
+        </div>
+        <div xml:id="pdtl1prolq1a5" type="articulus">
+          <head>Quintus articulus: <seg type="questionTitle">Utrum Theologia sit necessaria?</seg></head>
+          <p xml:id="pdtl1prolq1-d1e4585">Ad quintum Articulum sic 1 
+            Per <name ref="#Aristotle">Philosophum</name> habetur de omni genere 
+            entium scientia tam de divinis, quam de humanis: 
+            tam de rebus, quam de signis, ut patet per divisionem 
+            Philosophiae. Ergo superfluit Theologia.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4599">2. Omnis scientiae finis est perfectio intellectus 
+            vel speculativi, vel practici: per Philosophiam 
+            vero habetur in demonstrativis perfectio speculativi, 
+            in moralibus perfectio intellectus practici. 
+            Ergo superfluit Theologia.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4610"><cb ed="#T" n="A3va"/>3. Aliis animalibus ad acquirendam suam 
+            perfectionem sufficit natura; Ergo multo magis 
+            homini tanquam nobiliori: Ergo non est homini 
+            ad perfectionem ulla scientia necessaria, qua 
+            non possit acquirere per naturam Ergo etc.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4624">Contra 1. <name ref="#Augustine">Augustinus</name> <quote ana="#Augustine_deTrinitate_14_1_3_b">Theologia est scientia 
+            de <choice><orig>ijs</orig><reg>his</reg></choice>, quae ad salutem animae pertinent; <!-- not a very direct quote, ana is better attached to ref, but ref extractions is currently problematic --></quote> haec autem 
+            est valde necessaria.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4645">2. Nullus effectus improportionatus suae 
+            causae sufficienter ducit in cognitionem eius: comnis 
+            effectus naturalis sic se habet respectu primae 
+            causae. Ergo scientia per huiusmodi effectus non 
+            est sufficiens ad cognitionem primae causa. Ergo 
+            oportet alteram esse.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4658">Respondeo. Finis creaturae rationalis est assimilatio 
+            cum suo Creatore per speciem contemplationois: 
+            haec autem contemplatio duplex est, vel 
+            per creata, in quibus relucet obscure, vel per esentiam 
+            propriam, in qua clarissime: prima est 
+            speculatio per viam naturae in praesenti, et hic est 
+            finis scientiarum Philosophicarum: secunda per 
+            viam gratiae, et menriti, quae erit in futuro per immediatam 
+            visionem, et hic est finis ultimus creaturae 
+            rationalis: cum ergo non posint homines in 
+            finem tendere, nisi eum cognoscant, nec per naturales 
+            Philosophias nosse valeant (non enim per naturam 
+            cognoscibile est, quomodo lux infinita intellectui 
+            finito se contemperando infundat immediate) 
+            oportet, quod sit alia scientia superior, quae 
+            hoc doceat: quae sit de Deo, inquantum est finis, 
+            non generaliter cuiuslibet creaturae, sed creaturae 
+            rationalis. Scientia quidem Theologica mundana 
+            agit de entibus, ut exeunt ab uno ente semper 
+            actu, scilicet Deo: sed Theologia divina prout redeunt 
+            in ipsum, ut in finem suum: unde cum sit 
+            de Deo, ut de fine ultimo, finis vero sit causarum 
+            nobilissima, ipsa est scientia nobilissima, et altissima: 
+            et quia suprema, ideo utitur <choice><orig>alijs</orig><reg>aliis</reg></choice> inferioribus, 
+            et ipsae ancillantur eidem.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4722">Ad 1. Per Philosophiam habetur scientia etc. 
+            Respondeo. Quamvis per Philosophiam habeatur scientia 
+            de omni genere entium sub ratione generali, 
+            inquantum entia sunt; non tamen secundum omnem 
+            modum, quia non secundum modum nobiliorem 
+            scilicet reductionis in Deum, ut in causam 
+            finalem.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4738">Ad 2. Per Philosophiam habetur perfectio intellectus. 
+            Respondeo. Habetur <sic>quidem</sic> perfectio intellectus 
+            sufficiens secundum modum naturae, sed 
+            non simpliciter, nec de facili, quia natura, imperfecta 
+            est sine dono gratiae.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4752">Ad 3. De animalibus. Respondeo Argumentum 
+            non est a minori, sed a maiori constrictive: ex eo 
+            enim, quod homo nobilior incomparabiliter est, 
+            ideo perfectio eius transcendit genus suum, ideo 
+            non sufficit ad eius perfectionem natura, sicut 
+            animalibus caeteris.</p>
+        </div>
+        <div xml:id="pdtl1prolq1a6" type="articulus">
+          <head>Sextus articulus: <seg type="questionTitle">Utrum Theologiae conveniat modus inquisitionis per rationes et argumenta?</seg></head>
+        
+          <p xml:id="pdtl1prolq1-d1e4770"><cb ed="#T" n="A3vb"/>Ad ultimum sic proceditur <title ref="#sir">Ecclesiasticus</title> <sic>7</sic> <quote ana="#sir3_22">Altiora 
+            te ne quaesieris</quote> etc Divina sunt nobis 
+            altiora: Ergo non sunt per viam rationis inquirenda</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4791">2. <ref><name ref="#JohnDamascenus">Damescenus</name> libro primo</ref> Quae tradita sunt nobis a 
+            Prophetis et Evangelistis suscipimus, et veneramur, 
+            nil ultra hoc inquirentes; sed ultra sunt 
+            rationes, et argumenta. Ergo etc.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4805">3. <name ref="#Ambrose">Ambrosius</name>. Tolle rationem ubi Fides quaeritur: 
+            picatoribus creditur, non dialecticis.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4813">4. Ut dicit <name ref="#GregoryGreat">Gregorius</name>, Fides non habet meritum, 
+            cui humana ratio praebet experimentum. 
+            Ergo inquisitio ratiocinativa enervat meritum 
+            fidei: ergo mala est.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4825">Contra 1. Divina habent esse aeternum: ergo 
+            necessarium: sed ad omnem veritatem necessariam 
+            monstrandam sunt rationes necessariae, ut 
+            dicit <name ref="#RichardOfStVictor">Richardus</name> libro <title ref="#RichardOfStVictor_deTrinitate">de Trinitate</title>. Ea vero quae sunt, non 
+            est malum inquirere. Ergo etc.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4843">2. Laudabile est fidem defendere contra adversarios: 
+            hoc autem non potest fieri auctoritatibus, 
+            quia non reciperent. Ergo oportet quod 
+            fiat rationibus.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4851">3. <name ref="#Augustine">Augustinus</name> primo <title ref="#deTrinitate">de Trintiate</title> Adversus 
+            garrulos ratiocinatores, elatiores quam capaciores, 
+            rationibus Catholicis, et congruis similitudinibus 
+            est utendum.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4866">Respondeo. Duplex est modus inquirendi per 
+            rationes; quidam modestus, quo ratio supponitur 
+            fidei; quidam praesumptuosus, quo praeponitur: 
+            primus competit Theologiae non ad fidei 
+            probationem, sed ad declarationem quoad infideles, 
+            et secundus non.</p> <!-- example of early understanding of declarative theology ???? -->
+          
+          <p xml:id="pdtl1prolq1-d1e4881">Ad 1. Altiora te, etc. Respondeo Loquitur de inquisitione 
+            temeraria.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4886">Ad 2. Quod <choice><orig>obijcitur</orig><reg>obiicitur</reg></choice> de <name ref="#JohnDamascenus">Damasceno</name> Rspondeo. Ultra 
+            Scripturam Sacram esse dicitur, quod ibidem nec 
+            expresse, nec impliciter continetur, sive quod ei 
+            adversatur, non quod consonat, sicut dicitur 
+            aliud Evangelium, id est contrarium: Glossa.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4907">Ad 3. Quod <choice><orig>obijcitur</orig><reg>obicitur</reg></choice> de <name ref="#Ambrose">Ambrosio</name>. Respondeo. Ad 
+            faciendam fidem ratio cessare debet, quia excludit 
+            meritum, sed non ad declarandam et defendendam.</p>
+          
+          <p xml:id="pdtl1prolq1-d1e4924">Ad quartum <name ref="#GregoryGreat">Gregorii</name>. Respondeo. Loquitur de experimento 
+            et ratione faciente fidem, non de adminiculante, et adiuvante.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

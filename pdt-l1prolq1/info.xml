@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info xmlns:tei="http://www.tei-c.org/ns/1.0" 
+xmlns:sctap="http://scta.info/properties/" 
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <div xml:id="pdt-l1prolq1">
+    <head>Librum I, Prologus, Questio 1</head>
+    <div>
+      <head>Divisio quaestionis</head>
+    
+      <p xml:id="pdtl1prolq1-d1e3453"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e3457"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e3461"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e3465"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e3470"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e3476"></p>
+    
+    </div>
+    <div xml:id="pdtl1prolq1a1">
+      <head>Primus articulus: <seg type="questionTitle">Utrum theologia sit scientia?</seg></head>
+      
+      <p xml:id="pdtl1prolq1-d1e3480">
+        
+      </p>
+      
+      <p xml:id="pdtl1prolq1-d1e3507">
+        
+      </p>
+    
+      <p xml:id="pdtl1prolq1-d1e3526">
+        
+      </p>
+    
+      <p xml:id="pdtl1prolq1-d1e3533"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3547"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3558"><!-- also page 3b --></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3625"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3665"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3705"></p>
+    </div>
+    <div xml:id="pdtl1prolq1a2">
+      <head>Secundus articulus: <seg type="questionTitle">Utrum theologia sit una scientia?</seg></head>
+      <assertions>
+      </assertions>
+      
+      <p xml:id="pdtl1prolq1-d1e3754"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3776"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3782"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3790"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3807"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3815"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3831"></p>
+    
+    <p xml:id="pdtl1prolq1-d1e3881"></p>
+    
+    <p xml:id="pdtl1prolq1-d1e3884"></p>
+    </div>
+    <div xml:id="pdtl1prolq1a3">
+      <head>Tertius articulus: <seg type="questionTitle">Utrum Deus sit subiectum Theologiae</seg></head>
+      
+      <p xml:id="pdtl1prolq1-d1e3901"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e3916"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e3932"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e3951"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e3984"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e3998"></p>
+        
+      <p xml:id="pdtl1prolq1-d1e4013"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4027"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4189"><!-- compare with previous "responsio" --></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4215"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4249"></p>
+    </div>
+    <div xml:id="pdtl1prolq1a4">
+      <head>Quartus articulus: <seg type="questionTitle">Utrum Theologia sit speculativa, vel practica?</seg></head>
+      
+      <p xml:id="pdtl1prolq1-d1e4296"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4316"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4330"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4351"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4366"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4371"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4388"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4393"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4511"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4534"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4539"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4549"></p>
+    
+      <p xml:id="pdtl1prolq1-d1e4555"></p>
+    </div>
+    <div xml:id="pdtl1prolq1a5">
+      <head>Quintus articulus: <seg type="questionTitle">Utrum Theologia sit necessaria?</seg></head>
+      
+      <p xml:id="pdtl1prolq1-d1e4585"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4599"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4610"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4624"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4645"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4658"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4722"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4738"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4752"></p>
+    </div>
+    <div xml:id="pdtl1prolq1a6">
+      <head>Sextus articulus: <seg type="questionTitle">Utrum Theologiae conveniat modus inquisitionis per rationes et argumenta?</seg></head>
+    	<p xml:id="pdtl1prolq1-d1e4770"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4791"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4805"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4813"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4825"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4843"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4851"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4866"></p> <!-- example of early understanding of declarative theology ???? -->
+      
+      <p xml:id="pdtl1prolq1-d1e4881"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4886"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4907"></p>
+      
+      <p xml:id="pdtl1prolq1-d1e4924"></p>
+    </div>
+  </div>
+</info>
